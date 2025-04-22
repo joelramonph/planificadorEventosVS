@@ -4,7 +4,7 @@ import TotalCost from "./TotalCost";
 
 
 const ConferenceEvent = () => {
- const[showItems,setShowItems] = useState(false)
+ const[showItems,setShowItems] = useState()
 
  const handleToggleItems = () => {
     console.log("handleTogleItems called");
